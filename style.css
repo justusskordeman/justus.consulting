@@ -21,6 +21,24 @@ h2 {
   top: 5vw; 
   
 }
+h3{
+  color: red;
+  font-family: "arial";
+  font-size: 1vw;
+  transform:translate(0vw,-4vw);
+  
+  
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+
+
+
 img {
 width:50vw;
 height:50vw;
@@ -89,6 +107,5 @@ float: left;
 }
 
 #spalt1, #spalt2 {
-  width: 50vw;
+  width: 50vw;}
   
-}
