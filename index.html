@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>JUSTUS CONSULTING</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function visaSvar() {
+        event.preventDefault();
+        const allaSvar = ["svar1.html", "svar2.html", "svar3.html", "svar4.html","svar5.html", "svar6.html","svar7.html","svar8.html","svar9.html","svar10.html","svar11.html"];
+        const randomSvar = allaSvar[getRandomInt(allaSvar.length - 1)];
+        location.assign(randomSvar);
+      }
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>JUSTUS.CONSULTING</h1>
+
+    <div id="wrapper">
+      <div id="spalt1">
+        <h2>
+          FAQ:<br />
+          KOMMER JAG ATT BLI<br />
+          DUMPAD? <br />
+          ÄR JAG BRA NOG?<br />
+          KOMMER JAG ATT DÖ<br />
+          UNG?<br />
+          VILL MIN SVÄRFAR<br />
+          MIG ILLA?<br />
+          ÄR JAG MEDSKYLDIG<br />
+          TILL SKATTEBROTT?
+        </h2>
+      </div>
+
+      <div id="spalt2">
+        <img
+          src="https://cdn.glitch.global/4b33e337-a3f8-4f80-9cb3-65b13f591b1c/idleloopcenter.gif?v=1649330850235"
+        />
+        <image2>
+          <!img src="https://cdn.glitch.global/4b33e337-a3f8-4f80-9cb3-65b13f591b1c/snurr.gif?v=1649408663401">
+        </image2>
+
+        <form>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="SKRIV DIN FRÅGA HÄR"
+          /><br />
+          <input
+            type="submit"
+            value="KLICKA HÄR FÖR ATT FÅ SVAR"
+            onclick="visaSvar()"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
