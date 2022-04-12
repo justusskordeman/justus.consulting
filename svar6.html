@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>JUSTUS CONSULTING</title>
+    <link rel="stylesheet" href="stylesvar1.css" />
+    <script>
+      function visaSvar() {
+        event.preventDefault();
+        const allaSvar = ["svar1.html", "svar2.html"];
+        const randomSvar = allaSvar[getRandomInt(allaSvar.length - 1)];
+        location.assign(randomSvar);
+      }
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
+    </script>
+ </head>
+
+  <body>
+    <h1>JUSTUS.CONSULTING</h1>
+
+ <h2>
+   TYVÄRR MIN VÄN, DU KÄMPAR I ONÖDAN.
+    </h2>
+   <img
+          src="https://cdn.glitch.global/de5828ca-2bf1-4386-818e-6313e892617c/jagpratar2.gif?v=1649693176720"
+        />
+    
+  </body>
+<input type="button" onclick="location.href='https://justus.consulting';" value="STÄLL EN TILL FRÅGA"/>
+</html>
+
+<audio id="musicplayer" autoplay>
+  <source src="https://cdn.glitch.global/de5828ca-2bf1-4386-818e-6313e892617c/Basshunter%20-%20Vi%20sitter%20i%20ventrilo%20och%20spelar%20DotA.mp3?v=1649689219880">
+</audio>
